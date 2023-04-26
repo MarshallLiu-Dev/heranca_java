@@ -11,6 +11,8 @@ public class veiculo{
         this.cor = "";
 
 	}
+
+	  // getters e setters para os atributos
    
   	public void setAno(int a) {
         this.ano = a;
@@ -38,7 +40,7 @@ public class veiculo{
 		this.cor = "";
 	}
 	
-	public getCar() {
+	public getCor() {
 		return cor;
 	}
 }
