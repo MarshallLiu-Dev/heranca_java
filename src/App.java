@@ -19,15 +19,15 @@ public class App {
 
                 System.out.println("Qual a marca do seu veiculo?");
                 Marca = ler.next();
-                uno.getMarca();
+                uno.setMarca(Marca);
 
                 System.out.println("Qual a Cor do seu veiculo?");
                 Cor = ler.next();
-                uno.setCor();
+                uno.setCor(Cor);
 
                 System.out.println("Qual a modelo do seu veiculo?");
                 Modelo = ler.next();
-                uno.getModelo();
+                uno.setModelo(Modelo);
 
                 System.out.println("Qual o ano do seu veiculo?");
                 Ano = ler.nextInt();

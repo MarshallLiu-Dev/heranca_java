@@ -36,7 +36,7 @@ public class Veiculo {
 	public String getModelo() {
 		return modelo;
 	}
-    public void setCor() {
+    public void setCor(String cor2) {
 		this.cor = "";
 	}
 	
