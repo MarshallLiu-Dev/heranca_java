@@ -1,10 +1,10 @@
-public class veiculo{
+public class Veiculo {
         private int ano;
         private String marca;
         private String modelo;
         private  String cor;
 
-   	public veiculo() {
+   	public  Veiculo() {
 		this.ano = 0;
 		this.marca = "";
 		this.modelo = "";
@@ -18,29 +18,29 @@ public class veiculo{
         this.ano = a;
 	}
 	
-	public getAno() {
+	public int getAno() {
 		return ano;
 	}
 
-    public void setMarca(String) {
+    public void setMarca(String m) {
 		this.marca = "";
 	}
 	
-	public getMarca() {
+	public String getMarca() {
 		return marca;
 	}
-    public void setModelo(String) {
+    public void setModelo(String mod) {
 		this.modelo = "";
 	}
 	
-	public getModelo() {
+	public String getModelo() {
 		return modelo;
 	}
-    public void setCor(String) {
+    public void setCor() {
 		this.cor = "";
 	}
 	
-	public getCor() {
+	public String getCor() {
 		return cor;
 	}
 }
