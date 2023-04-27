@@ -14,8 +14,8 @@ public class Veiculo {
 
 	  // getters e setters para os atributos
    
-  	public void setAno(int a) {
-        this.ano = a;
+  	public void setAno(int ano) {
+        this.ano = ano;
 	}
 	
 	public int getAno() {
