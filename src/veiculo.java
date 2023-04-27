@@ -23,21 +23,21 @@ public class Veiculo {
 	}
 
     public void setMarca(String m) {
-		this.marca = "";
+		this.marca = m;
 	}
 	
 	public String getMarca() {
 		return marca;
 	}
     public void setModelo(String mod) {
-		this.modelo = "";
+		this.modelo = mod;
 	}
 	
 	public String getModelo() {
 		return modelo;
 	}
-    public void setCor(String cor2) {
-		this.cor = "";
+    public void setCor(String cor) {
+		this.cor = cor;
 	}
 	
 	public String getCor() {
